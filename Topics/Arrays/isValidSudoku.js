@@ -16,6 +16,7 @@ const isValidSudoku = (board) => {
       set.add(box);
     }
     console.log(" === ");
+    console.log(" set is ", set);
   }
   return true;
 };
